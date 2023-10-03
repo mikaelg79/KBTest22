@@ -1,0 +1,6 @@
+if SHIELD_KBTEST22
+
+config ZMK_KEYBOARD_NAME
+    default "KBTest22"
+
+endif
