@@ -8,14 +8,14 @@
 
         default_layer {
             bindings = <
-                &kp A   &kp B
-                &kp C   &mo 1
+                &kp N1      &kp LBKT
+                &kp LSHIFT  &mo 1
             >;
         };
 
         bt_layer {
             bindings = <
-                &none          &bootloader
+                &kp K_CALC   &bootloader
                 &bt BT_SEL 0   &bt BT_CLR
             >;
         };
